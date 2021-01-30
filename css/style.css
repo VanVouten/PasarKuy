@@ -36,6 +36,7 @@ input[type=password]{
     margin-bottom: 20px !important;
 }
 .input-group-addon{
+
     background: 0 0;
     border: 0;
     color: #afb5c1;
