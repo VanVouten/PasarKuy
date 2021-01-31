@@ -26,13 +26,21 @@ body,.home{
     font-size: 15px;
     line-height: 19px;
 }
-.in{
-    width: 150px;
-    height: 10px;
-    padding: 15px;
-    border-radius: 10px;
-    color: orange;
+.inline-button{
+    display: flex;
 }
+
+input[type=button] {
+    margin-left: 10px;
+
+    background-color: #F39F44;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 input[type=text],
 input[type=mail],
 input[type=password]{
